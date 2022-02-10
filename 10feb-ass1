@@ -1,0 +1,27 @@
+# pass or fail
+
+sno=int(input('Enter student no:'))
+sname=input('Enter student name:')
+sgroup=input('Enter student group:')
+s1=int(input('Enter Maths marks:'))
+s2=int(input('Enter Physics marks:'))
+s3=int(input('Enter Computers marks:'))
+s4=int(input('Enter English marks:'))
+s5=int(input('Enter Telugu marks:'))
+s6=int(input('Enter EE marks:'))
+if(s1>=35and s2>=35and s3>=35and s4>=35and s5>=35and s6>=35):
+    print('STUDENT PASSED')
+else:
+    print('STUDENT FAILED')
+ 
+OUTPUT:                                 
+Enter student no:34                         
+Enter student name:prasanna
+Enter student group:mpcs
+Enter Maths marks:56
+Enter Physics marks:67
+Enter Computers marks:89
+Enter English marks:90
+Enter Telugu marks:89
+Enter EE marks:76
+STUDENT PASSED
