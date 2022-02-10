@@ -1,0 +1,14 @@
+# Given number is positve or negitive
+
+N=int(input('enter a number:'))
+if(N>=0):
+    print('Given number is postive')
+else:
+    print('Given number is negitive')
+    
+OUTPUT 1:
+enter a number:-999
+Given number is negitive
+OUTPUT 2:
+enter a number:45
+Given number is postive
